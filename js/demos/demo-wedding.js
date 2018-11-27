@@ -67,7 +67,7 @@ Theme Version:	5.7.0
 	/*
 	Countdown
 	*/
-	$('#clock').countdown('2018/03/28 12:00:00').on('update.countdown', function(event) {
+	$('#clock').countdown('2019/03/28 12:00:00').on('update.countdown', function(event) {
 		var $this = $(this).html(event.strftime(''
 			+ '<span>%D<span>day%!d</span></span> '
 			+ '<span>%H<span>hours</span></span> '
